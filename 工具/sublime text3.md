@@ -41,3 +41,17 @@ https://github.com/chikatoike/IMESupport
     - 输入 "mdi + tab" 会自动插入下面的图片标记
     - 输入 "mdl + tab" 会自动生成下面的链接标记
 - 安装 OmniMarkupPreviewer
+
+## 模版配置
+>插件 SublimeTmpl
+
+- 新增模版 
+    - Preferences->Browse Packages->SublimeTmpl->templates，新建一个模板文件md.tmpl
+    - 在 Default (Windows).sublime-keymap 新增如下
+
+``` 
+    {
+        "keys": ["ctrl+alt+m"], "command": "sublime_tmpl",
+        "args": {"type": "md"}, "context": [{"key": "sublime_tmpl.md"}]
+    }
+``` 
