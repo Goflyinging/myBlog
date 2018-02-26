@@ -13,13 +13,13 @@ tags: [工具,markdown]
 通过在文字开头添加“>”表示块注释。（当>和文字之间添加五个blank时，块注释的文字会有变化。）
 
 ## 斜体
-将需要设置为斜体的文字两端使用1个“*”或者“_”夹起来
+将需要设置为斜体的文字两端使用1个“ * ”或者“ _ ”夹起来
 
 ## 粗体
-将需要设置为斜体的文字两端使用2个“*”或者“_”夹起来
+将需要设置为斜体的文字两端使用2个“ * ”或者“ _ ”夹起来
 
 ## 无序列表
-在文字开头添加(*, +, and -)实现无序列表。但是要注意在(*, +, and -)和文字之间需要添加空格。（建议：一个文档中只是用一种无序列表的表示方式）
+在文字开头添加( * , +, and -)实现无序列表。但是要注意在( * , +, and -)和文字之间需要添加空格。（建议：一个文档中只是用一种无序列表的表示方式）
 
 ## 有序列表
 使用数字后面跟上句号。（还要有空格）
@@ -51,9 +51,9 @@ Markdown中有两种方式，实现链接，分别为内联方式和引用方式
 ## 脚注
 
 ```
-I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3]. 
-[1]: http://google.com/        "Google" 
-[2]: http://search.yahoo.com/  "Yahoo Search" 
+I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
 [3]: http://search.msn.com/    "MSN Search"
 这是一个链接到谷歌的[^脚注]。
 [^脚注]: http://www.google.com
@@ -65,7 +65,7 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 ## 表格
 项目     | 价格  
 
--------- | --- 
+-------- | ---
 
 Computer | $1600  
 
@@ -95,7 +95,6 @@ class SomeClass:
 ... prompt'''
 ```
 
+> 是神奇的人类
 
-
-
-  
+**   哈哈   **
