@@ -39,5 +39,5 @@ https://github.com/chikatoike/IMESupport
 - 安装 Markdown​Editing
     - 输入 "mdi + tab" 会自动插入下面的图片标记
     - 输入 "mdl + tab" 会自动生成下面的链接标记
-- 安装 OmniMarkupPreviewer
+- 安装 OmniMarkupPreviewer  
 ![Alt text](https://github.com/Goflyinging/myBlog/blob/master/%E5%B7%A5%E5%85%B7/1511772407977.png?raw=true"Optional title")
