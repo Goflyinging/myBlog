@@ -48,7 +48,7 @@ Markdown中有两种方式，实现链接，分别为内联方式和引用方式
 - 简单文字出现一个代码框。使用\`\`。（\`不是单引号而是左上角的ESC下面~中的`）
 - 大片文字需要实现代码框。使用Tab和四个空格。
 
-###脚注
+### 脚注
 
 ```
 I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3]. 
