@@ -1,6 +1,6 @@
 ---
 title: hashCode
-date: 2018-03-01
+date: 2018-03-14
 categories: basics
 tags: [basics,java]
 ---
