@@ -5,7 +5,9 @@ categories: jvm
 tags: [jvm,mat]
 ---
 # memory analyzer tool
+
 ##  基本概念
+
 ###  Shallow Heap
 Shallow size就是对象本身占用内存的大小，不包含其引用的对象内存，也就是对象头(Mark Word（标记字段）和 class Pointer（类型指针）)加成员变量（不是成员变量的值）的总和。
 - 常规对象（非数组）的ShallowSize由其成员变量的数量和类型决定
@@ -26,14 +28,16 @@ retained heap值的计算方式是将retained set中的所有对象大小叠加�
 意思是查看排除虚引用/弱引用/软引用等的引用链，因为被虚引用/弱引用/软引用的对象可以直接被GC给回收，我们要看的就是某个对象否还存在Strong 引用链（在导出HeapDump之前要手动出发GC来保证），如果有，则说明存在内存泄漏，然后再去排查具体引用。
 
 ###  查看当前Object所有引用,被引用的对象
-####  List objects with （以Dominator Tree的方式查看）
+
+#### List objects with （以Dominator Tree的方式查看）
 - incoming references 引用到该对象的对象
 - outcoming references 被该对象引用的对象
-####  Show objects by class （以class的方式查看）
+#### Show objects by class （以class的方式查看）
 - incoming references 引用到该对象的对象
 - outcoming references 被该对象引用的对象
 
 ##  相关功能
+
 ###  Histogram （直方图）视图
 - Objects:类的对象的数量。
 - Shallow Heap：就是对象本身占用内存的大小，不包含对其他对象的引用，也就是对象头加成员变量（不是成员变量的值）的总和。
