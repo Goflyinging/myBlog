@@ -2,7 +2,7 @@
 title: Memory Analyzer Tool
 date: 2018-03-03
 categories: jvm
-tags: [jvm,MAT]
+tags: [jvm,mat]
 ---
 # 基本概念
 ## Shallow Heap
