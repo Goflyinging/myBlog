@@ -1,5 +1,5 @@
 ---
-title: Memory Analyzer Tool
+title: memory analyzer tool
 date: 2018-03-03
 categories: jvm
 tags: [jvm,mat]
