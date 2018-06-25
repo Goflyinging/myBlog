@@ -1,1 +1,1 @@
-hexo g&xcopy /E /Y "./source/_posts/img" "./public/img"& hexo d&cd ./source/_posts&git config --global push.default matching&git add .&git commit -m ''&git push blog&pause>nul
+hexo clean&hexo g&md "./public/img"&xcopy /E /Y "./source/_posts/img" "./public/img"& hexo d&cd ./source/_posts&git config --global push.default matching&git add .&git commit -m ''&git push blog&pause>nul
