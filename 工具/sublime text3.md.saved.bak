@@ -1,3 +1,9 @@
+---
+title: sublime text3
+date: 2018-02-26
+categories: 工具
+tags: [工具,markdown]
+---
 # sublime text3
 
 ## 基本使用
