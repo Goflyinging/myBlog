@@ -1,1 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T02:12:23.670Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7NZ2Z2t8EPT-hvL7WiaI" version="20.3.1" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-16T03:12:21.040Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3w-Dird26jf3msFkIide" version="20.3.1" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1687" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="server" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="80" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-12" value="只针对用户进行过滤&lt;br&gt;1.未关注&lt;br&gt;2.封禁&lt;br&gt;3.不想看的人&lt;br&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="QNqXrockImnFhQQdLpIy-11" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="150" />
+              <mxPoint x="80" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="45" y="80" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="45" y="200" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="reco" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-1" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="QNqXrockImnFhQQdLpIy-1">
+          <mxGeometry x="45" y="60" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-4" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="QNqXrockImnFhQQdLpIy-3" parent="1" source="QNqXrockImnFhQQdLpIy-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-7" value="consumed：内流曝光作品id（最近20个）&lt;br&gt;firstFetch：是否第一次请求" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QNqXrockImnFhQQdLpIy-4">
+          <mxGeometry x="-0.0798" y="3" relative="1" as="geometry">
+            <mxPoint x="-104" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-5" value="1.用户信息&lt;br&gt;2.文案&lt;br&gt;3.跳转链接&lt;br&gt;4.下次请求时间间隔" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1.123;entryY=0.899;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" source="QNqXrockImnFhQQdLpIy-3" parent="1" target="QNqXrockImnFhQQdLpIy-2">
+          <mxGeometry x="0.4295" y="-7" relative="1" as="geometry">
+            <mxPoint x="60" y="420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-6" value="访问关注页内流朋友作品" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.25" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="-60" y="180" as="sourcePoint" />
+            <mxPoint x="20" y="180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-9" value="&lt;div style=&quot;text-align: left;&quot;&gt;1.consumed&lt;br&gt;2.firstFetch&lt;br&gt;3.userId&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.897;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="QNqXrockImnFhQQdLpIy-8" parent="1" source="QNqXrockImnFhQQdLpIy-3">
+          <mxGeometry x="0.0016" y="10" relative="1" as="geometry">
+            <mxPoint x="430" y="170" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;用户及对应的未读作品id（最多10个）&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;未读数&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1.026;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="QNqXrockImnFhQQdLpIy-8" parent="1" target="QNqXrockImnFhQQdLpIy-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QNqXrockImnFhQQdLpIy-13" value="1.构建未读用户和作品缓存集" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="170" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
